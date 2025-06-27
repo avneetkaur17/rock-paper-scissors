@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="title">ROCK PAPER SCISSORS</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="h2"><h2>Ready for a challenge?😎</h2></div>
+
+        <div class="h3"><h3>Choose your move and see if you can beat the computer!</h3></div>
+
+        <div class="progress-container">
+            <div class="progress-track">
+                <div class="progress-bar">
+                    <div class="player-marker">👾</div>
+                    <div class="computer-marker">🤖</div>
+                    <div class="prize">🏆</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="points">
+            <div class="player-points">You:</div>
+            <div class="computer-points">Computer:</div>
+        </div>
+
+        <div class="selections">
+            <div class="selection" id="player-selection">You: </div>
+            <div class="selection" id="computer-selection">Computer: </div>
+        </div>
+
+
+        <div class="options-box">
+            <button class="btn" id="rock-btn">ROCK</button>
+
+            <button class="btn" id="paper-btn">PAPER</button>
+
+            <button class="btn" id="scissors-btn">SCISSORS</button>
+
+        </div>
+    </main>
+
+    <hr>
+    <footer>
+        <div class="footer">By: Avneet Kaur &copy; 2025 copyright reserved</div>
+    </footer>
+
+    <div id="playAgainModal" class="modal">
+        <div class="modal-content">
+            <p id="modalMessage"></p>
+            <button id="playAgainBtn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
